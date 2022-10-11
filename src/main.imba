@@ -8,14 +8,13 @@ tag card
 		.content max-width:256px m:0 auto
 		.title fs:1.375rem c:#1F314F mt:1.5rem
 		p ls:0.19px mt:1rem mb:1.5rem
-	
+
 	<self>
 		<img.qr src=qr>
 		<div.content>
 			<h1.title> "Improve your front-end skills by building projects"
 			<p> "Scan the QR code to visit Frontend Mentor and take your coding skills to the next level"
 		
-
 tag app
 	global css 
 		* box-sizing:border-box
@@ -24,6 +23,5 @@ tag app
 		
 	<self[h:100vh d:flex ja:center]>
 		<card>
-		
 		
 imba.mount <app>, document.getElementById 'app'
