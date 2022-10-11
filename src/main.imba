@@ -4,7 +4,7 @@ import qr from './assets/image-qr-code.png'
 tag card
 	
 	css 
-		max-width:320px ta:center p:1rem bg:white rd:20px m:2rem
+		max-width:320px ta:center p:1rem bg:white rd:20px m:.5rem
 		.qr max-width:288px rd:10px
 		.content max-width:256px m:0 auto
 		.title fs:1.375rem c:#1F314F mt:1.5rem
