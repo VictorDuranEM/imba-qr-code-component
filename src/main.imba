@@ -15,7 +15,7 @@ tag card
 			<h1.title> "Improve your front-end skills by building projects"
 			<p> "Scan the QR code to visit Frontend Mentor and take your coding skills to the next level"
 		
-tag app
+tag qr-component
 	global css 
 		* box-sizing:border-box
 		html bg: #D5E1EF
@@ -24,4 +24,4 @@ tag app
 	<self[h:100vh d:flex ja:center]>
 		<card>
 		
-imba.mount <app>, document.getElementById 'app'
+imba.mount <qr-component>, document.getElementById 'app'
